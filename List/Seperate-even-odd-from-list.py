@@ -14,7 +14,7 @@ class Solution:
             arr (list): The input list of integers to be separated.
 
         Returns:
-            List:
+            tuple of lists: A tuple containing two lists:
             1. List of even numbers from the input list.
             2. List of odd numbers from the input list.
         """
@@ -32,3 +32,6 @@ if __name__ == '__main__':
     obj = Solution()
     arr = [10, 41, 30, 15, 80]
     print(obj.sep_eve_odd(arr))
+    
+# Output
+# ([10, 30, 80], [41, 15])
