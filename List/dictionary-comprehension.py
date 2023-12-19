@@ -18,7 +18,13 @@
 # Problem 3
 l2 = [101, 103, 102]
 l3 = ['gfg', 'ide', 'courses']
-d3 = {l2[i] : l3[i] for i in range(len(l3))}
+# d3 = {l2[i] : l3[i] for i in range(len(l3))}
+# print(d3)
+
+# Output
+# {101: 'gfg', 103: 'ide', 102: 'courses'}
+
+d3 = dict(zip(l2,l3))
 print(d3)
 
 # Output
