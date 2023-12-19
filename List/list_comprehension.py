@@ -17,4 +17,4 @@ if __name__ == '__main__':
     # print(obj.get_n_small_x(arr=[1,2,3,4,5],x=3))
     # Output [1, 2]
     # print(obj.get_odd_even_numbers(x=11))
-    # output ([0, 2, 4, 6, 8, 10], [1, 3, 5, 7, 9])
+    # output ([0, 2, 4, 6, 8, 10], [1, 3, 5, 7, 9]) 
