@@ -10,8 +10,6 @@
 # Output: 0
 # Explanation: arr[]  = [2, 5] and sum = 10. There is no pair with sum 10.
 
-from ast import Set
-
 
 def sumExists(arr, target):
     seen = set()
